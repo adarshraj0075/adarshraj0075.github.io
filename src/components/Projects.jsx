@@ -31,15 +31,17 @@ const projects = [
 
 const Projects = () => (
   <Box id="projects" bgGradient="linear(135deg, #181c2f 0%, #2a2250 100%)" px={2} py={10} borderRadius="2xl" my={4} boxShadow="lg">
-    <Text color="#a084e8" fontWeight="bold" fontSize="md" mb={1} letterSpacing="wide">
-      MY WORK
-    </Text>
-    <Heading as="h2" size="2xl" fontWeight="extrabold" mb={2} textAlign="left" color="#fff">
-      Projects.
-    </Heading>
-    <Text color="gray.300" fontSize="md" mb={8} maxW="2xl">
-      Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
-    </Text>
+    <Box w="100%" display="flex" flexDirection="column" alignItems="center" justifyContent="center">
+      <Text color="#a084e8" fontWeight="bold" fontSize="md" mb={1} letterSpacing="wide" textAlign="center">
+        MY WORK
+      </Text>
+      <Heading as="h2" size="2xl" fontWeight="extrabold" mb={2} textAlign="center" color="#fff">
+        Projects.
+      </Heading>
+      <Text color="gray.300" fontSize="md" mb={8} maxW="2xl" textAlign="center">
+        Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
+      </Text>
+    </Box>
     <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={8}>
       {projects.map((proj, index) => (
         <Box
