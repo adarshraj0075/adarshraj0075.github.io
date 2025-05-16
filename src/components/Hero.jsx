@@ -238,7 +238,9 @@ const Hero = () => {
               background: "#181c2f",
               border: "4px solid #a084e8",
               zIndex: 2,
-              boxShadow: "0 0 32px #a084e8"
+              boxShadow: "0 0 32px #a084e8",
+              width: "300px",
+              height: "300px"
             }}
           />
         </Box>
