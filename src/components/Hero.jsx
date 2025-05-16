@@ -220,8 +220,8 @@ const Hero = () => {
             top="50%"
             transform="translate(-50%, -50%)"
             zIndex={1}
-            width="240px"
-            height="240px"
+            width="320px"
+            height="320px"
             borderRadius="50%"
             background="radial-gradient(circle, #a084e8 0%, #181c2f 80%)"
             filter="blur(32px)"
@@ -230,7 +230,7 @@ const Hero = () => {
           <Avatar
             src="/profile.jpg"
             name="Adarsh Raj"
-            size="2xl"
+            boxSize="380px"
             boxShadow="2xl"
             borderWidth={4}
             borderColor="#a084e8"
@@ -238,9 +238,7 @@ const Hero = () => {
               background: "#181c2f",
               border: "4px solid #a084e8",
               zIndex: 2,
-              boxShadow: "0 0 32px #a084e8",
-              width: "300px",
-              height: "300px"
+              boxShadow: "0 0 32px #a084e8"
             }}
           />
         </Box>
